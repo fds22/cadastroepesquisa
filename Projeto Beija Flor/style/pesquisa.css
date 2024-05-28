@@ -1,0 +1,155 @@
+body{
+    background-color: #D6CFCF;
+    margin: 0;
+}
+
+.pai{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 0.01px;
+}
+
+.container{
+    background-color: #AEA9A9;
+    border: solid black;
+    color: white;
+    width: 500px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    label{
+        color: #000000;
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 12px;
+    }
+
+    input{
+        border-radius: 8px;
+        margin-top: 12px;
+        margin-right: 9px;
+    }
+
+    button{
+        width: 80px;
+        background-color: #1F3D5C;
+        color: white;
+        margin: 27px 0px 3px 410px;
+
+        
+    }
+
+    form{
+        margin-top: 12px;
+    }
+
+    #nomeAluno{
+        width: 365px;
+    }
+
+    #cpfAluno{
+        width: 180px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    #selectCurso{
+        width: 100px;
+        margin-right: 10px;
+        border-radius: 8px;
+    }
+
+    .dadosPesquisa{
+        display: flex;
+        justify-content: space-between;
+        gap: 6px;
+    }
+
+    .areaPesquisa{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .area{
+        margin: 10px;
+        border-radius: 8px;
+        width: 480px;
+        resize: none;
+    }
+}
+
+
+.dadosAluno{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+
+.menu{
+    background-color: #B7E1CC;
+    border: solid black;
+    width: 150px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+
+
+    img{
+        width: 70px;
+        margin: 0 auto;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .btn{
+        background-color: #1F3D5C;
+        color: white;
+        width: 100px;
+        margin: 0 auto;
+        border-radius: 5px;
+
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+
+    .sair{
+        background-color: #DB4357;
+        color: white;
+        width: 47px;
+        margin: 0 auto;
+        border-radius: 5px;
+
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+}
+
+.user{
+    background-color: #EA701F;
+    border: solid black;
+    width: 496px;
+    margin-top: 5px;
+
+        label{
+        color: white;
+        text-align: center;
+        padding-left: 369px;
+    }
+}
+
